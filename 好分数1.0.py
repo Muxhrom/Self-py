@@ -4,7 +4,7 @@ def read():
 	name = []
 	acc = []
 	#打开配置文件
-	with open('amm.csv','r') as myFile:
+	with open('账号.csv','r') as myFile:
 	    lines=csv.reader(myFile)
 	    #得到每人的数据
 	    for line in lines:
